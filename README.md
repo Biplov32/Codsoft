@@ -16,7 +16,7 @@ A simple rule-based chatbot developed using `if-else` statements. It responds to
 
 An AI-driven Tic-Tac-Toe game built using the Minimax algorithm. This version of the game is unbeatable as the AI always makes optimal moves.
 
-- **Techniques Used:** Minimax algorithm with pruning.
+- **Techniques Used:** Minimax algorithm.
 - **Languages Used:** Python.
 - **Features:**
   - The game is fully interactive.
@@ -30,7 +30,7 @@ A neural network-based model that generates captions for images. The model uses 
   - CNN for feature extraction.
   - LSTM for sequence modeling and caption generation.
 - **Libraries:** TensorFlow, Keras.
-- **Dataset:** Used pre-trained models and a dataset of labeled images (e.g., MS COCO dataset).
+- **Dataset:** [Flickr8k dataset](https://www.kaggle.com/datasets/adityajn105/flickr8k) containing 8,000 images and corresponding captions.
 - **Workflow:**
   1. CNN extracts features from the input image.
   2. LSTM generates a sequence of words (captions) based on the extracted features.
